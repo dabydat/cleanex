@@ -1,0 +1,37 @@
+# Archivo .gitignore en la raíz del repositorio
+
+# Excluir los archivos de configuración del proyecto
+config/
+
+# Excluir los archivos de construcción del proyecto
+build/
+
+# Excluir los archivos de logs del proyecto
+logs/
+
+# Excluir los archivos de pruebas del proyecto
+tests/
+
+# Excluir los archivos de depuración del proyecto
+debug/
+
+# Excluir los archivos generados por el sistema de construcción
+node_modules/
+
+# Excluir los archivos generados por el sistema de pruebas
+test_results/
+
+# Excluir los archivos generados por el sistema de depuración
+debug_logs/
+
+# Excluir los archivos específicos del proyecto NestJS
+cleanex-backend/dist/
+cleanex-backend/node_modules/
+cleanex-backend/.venv/
+
+# Excluir los archivos específicos del proyecto Angular
+cleanex-frontend/dist/
+cleanex-frontend/node_modules/
+cleanex-frontend/.venv/
+cleanex-frontend/src/environments/
+cleanex-frontend/src/app/environments/
